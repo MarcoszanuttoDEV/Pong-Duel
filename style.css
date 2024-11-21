@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.heade{
+    background-color: #359DFF;
+    height: 83px;
+    width: 100%;
+    display: flex;
+}
+.sobre{
+    margin-left: 12%;
+    margin-top: 2.3%;
+}
+.sobre:hover{
+        cursor: pointer; /* Adiciona um cursor que indica interatividade */
+}
+.avalie:hover{
+    cursor: pointer;
+}
+.suporte:hover{
+    cursor: pointer;
+}
+body{
+    background-color: black;
+}
+.botao:hover{
+    cursor: pointer;
+}
+.bot{
+    cursor: pointer;
+}
+.he{
+    background-color: #359DFF;
+    height: 83px;
+    width: 100%;
+    display: flex;
+}
+.sob{
+    margin-left: 12%;
+    margin-top: 2.3%;
+}

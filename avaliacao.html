@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="he" style="font-family: 'Inter';">
+    <a href="inicial.html">  <img src="img/logo.png" alt="" style="border-radius: 50%; height: 64px; width: 95%; margin-left: 90%; margin-top: 10%; cursor: pointer; " ></a>
+      <p style="font-size: 40px; font-family: 'Inter'; font-weight: bolder; color: #FFFFFF; margin-left: 6%; margin-top: 1.3%;" class="sob">Pong Duel</p>
+     
+      <p class="avalie" style="font-size: 24px; font-family: 'Inter'; font-weight: bolder;   margin-left: 40%;margin-top: 2.3%; color:  #FFFFFF;"></p>
+      
+      <p class="suporte" style="font-size: 24px; font-family: 'Inter'; font-weight: bolder;   margin-left: 5%;margin-top: 2.3%; color:  #FFFFFF;"><a href="ajuda.html" style="text-decoration: none; color: #FFFFFF;">Suporte ou Ajuda</a></p>
+      <img src="img/suporte.png" alt="" style="height:32px ; width:3% ; margin-top: 2.1%; margin-left: 0.5%;">    
+      </div>
+    
+<br><br>
+    <div class="logi" style="background-color:  #359DFF; height: 500px; width:70%; margin-left: 14.7%; border-radius: 10px; display: flex;">
+<div class="branco" style="background-color: #FFFFFF; height: 500px; width: 50%; border-radius: 5px;">
+<p style="font-size: 40px; font-family: 'inter'; font-weight: bolder; margin-top: 9%; margin-left: 5%;"> Avalie Nosso Trabalho!</p>
+<P style="font-size: 23px; font-family: 'inter'; font-weight: bold; margin-top: 11%; margin-left: 9%;">Ao lado, escreva o que você achou <br> do nosso trabalho, para nos ajudar <br>a evoluir e conseguir enteder no <br>que precisamos melhorar. Coloque <br>também sua opnião sobre o jogo!</P>
+</div>
+<div class="estre">
+<img src="img/estrela.png" alt="" style="height: 35%; width: 70%; margin-top: 3%;margin-left: 23%; display: block;">
+<p style="font-size: 23px; font-family: 'inter'; font-weight: bolder; margin-top: 2%; color: #FFFFFF; margin-top:15%; margin-left:10%;" class="op"> Avaliar:</p>
+<input id="oi" type="text" placeholder="Digite sua Opinão:" style="margin-top: 3%; height: 8%; width: 80%; border-radius: 5px; margin-left: 10%;">
+<button class="boa" style="height: 8%; width: 35%; margin-left: 10%; border-radius: 5px; margin-top: 8%; background-color: black; color: #FFFFFF; font-family: 'inter'; font-weight: bolder; " onclick="enviado()">Enviar</button>    
+<div>
+    <p id="a" style="font-weight: bolder; margin-top: 2%; margin-left: 10%; font-size:25px; font-family: 'inter'; color: #FFFFFF;"> A reposta será guardada, obrigado! </p>
+</div>
+
+
+    </div>
+    <script>
+        function enviado() {
+            document.getElementById('oi').value="";
+       
+        }
+    </script>
+    </div>
+
+<br><br>
+<div class="dim" style="background-color: #359DFF; height: 200px; width: 100%; margin-top: 4%; ">
+    <div class="aa" style="display: flex;">
+        <a href="inicial.html"><img src="img/logo.png" alt="" style="border-radius: 50%; height: 80px;  width: 95%; margin-left: 40%; margin-top: 40%;"></a> <p style="font-size: 45px; font-family: 'inter';font-weight: bolder; color: #FFFFFF; margin-top:4% ;margin-left: 3%;">Pong Duel</p>
+        
+        <p style="font-size: 20px; font-family: 'inter';font-weight: bolder; color: #FFFFFF; margin-top:11% ;margin-left: 14%;">(©) Pong.Todos os direito reservados.</p>
+        <p style="font-size: 25px; font-family: 'inter';font-weight: bolder; color: #FFFFFF; margin-top:5% ;margin-left: 15%;"><a href="ajuda.html" style="text-decoration: none; color: #FFFFFF;">Suporte ou ajuda </a></p><img src="img/suporte.png" alt="" style="height:32px ; width:3% ; margin-top: 4.7%; margin-left: 0.5%;">
+    </div>
+    </div>
+</body>
+</html>
